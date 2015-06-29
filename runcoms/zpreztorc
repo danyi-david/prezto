@@ -38,11 +38,11 @@ zstyle ':prezto:load' pmodule \
   'spectrum' \
   'utility' \
   'completion' \
-  'history-substring-search' \
   'prompt' \
   'git' \
   'archive' \
   'command-not-found' \
+  'history-substring-search' \
   'ssh' \
   'syntax-highlighting'
 
@@ -225,6 +225,7 @@ zstyle ':prezto:module:ssh:load' identities 'id_rsa'
 #
 
 # Auto set the tab and window titles.
+<<<<<<< HEAD
 zstyle ':prezto:module:konsole' auto-title 'yes'
 
 # Set the window title format.
@@ -232,6 +233,15 @@ zstyle ':prezto:module:konsole:window-title' format '%n@%m: %s'
 
 # Set the tab title format.
 zstyle ':prezto:module:konsole:tab-title' format '%m: %s'
+=======
+zstyle ':prezto:module:terminal' auto-title 'yes'
+
+# Set the window title format.
+zstyle ':prezto:module:terminal:window-title' format '%n@%m: %s'
+
+# Set the tab title format.
+zstyle ':prezto:module:terminal:tab-title' format '%m: %s'
+>>>>>>> 6c62903 (* my initial local changes)
 
 # Set the terminal multiplexer title format.
 # zstyle ':prezto:module:terminal:multiplexer-title' format '%s'

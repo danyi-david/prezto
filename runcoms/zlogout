@@ -8,12 +8,9 @@
 # Execute code only if STDERR is bound to a TTY.
 [[ -o INTERACTIVE && -t 2 ]] && {
 
-cat <<-EOF
-
-Wit greit pauer kams
-greit responsipiliti
-  -- Pisdormen
-
-EOF
+SAYINGS=(
+    "So long and thanks for all the fish.\n  -- Douglas Adams"
+    "Wit greit pauer kams greit responsipiliti.\n  -- Pisdormen"
+)
 
 } >&2
