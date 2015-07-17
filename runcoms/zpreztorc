@@ -25,7 +25,7 @@ zstyle ':prezto:*:*' color 'yes'
 # The order matters.
 zstyle ':prezto:load' pmodule \
   'environment' \
-  'terminal' \
+  'konsole' \
   'editor' \
   'history' \
   'directory' \
@@ -142,13 +142,13 @@ zstyle ':prezto:module:ssh:load' identities 'id_rsa'
 #
 
 # Auto set the tab and window titles.
-zstyle ':prezto:module:terminal' auto-title 'yes'
+zstyle ':prezto:module:konsole' auto-title 'yes'
 
 # Set the window title format.
-zstyle ':prezto:module:terminal:window-title' format '%n@%m: %s'
+zstyle ':prezto:module:konsole:window-title' format '%n@%m: %s'
 
 # Set the tab title format.
-zstyle ':prezto:module:terminal:tab-title' format '%m: %s'
+zstyle ':prezto:module:konsole:tab-title' format '%m: %s'
 
 #
 # Tmux
