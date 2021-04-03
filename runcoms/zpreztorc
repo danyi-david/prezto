@@ -38,11 +38,11 @@ zstyle ':prezto:load' pmodule \
   'spectrum' \
   'utility' \
   'completion' \
+  'history-substring-search' \
   'prompt' \
   'git' \
   'archive' \
   'command-not-found' \
-  'history-substring-search' \
   'ssh' \
   'syntax-highlighting'
 
